@@ -2,8 +2,7 @@
 	margin: 0px;
 	padding: 0px;
 	font-family: Segoe UI Light;
--moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
+
 	box-sizing: border-box;
 }
 
@@ -217,16 +216,20 @@ padding: 20px;
 	  section.service{
 		height: auto;
 	  }
-header{
-		padding: 10px;
-		color: white;
-		height: 20%;
-		background: #fd7e14;
-	}
+
 	  .col{
 		float: middle;
 	}
+	.btn1{
+		background: transparent;
 	
+	padding: 15px;
+		border: 1px solid #fd7e14;
+		border-radius: 100px;
+		color: white;
+		
+		margin-bottom: 30px;
+	}
 	.col.half{
 		width: 100%;
 	
@@ -235,12 +238,25 @@ header{
 	.col.third{
 		width: 100%;
 	}
-
+	header{
+		padding: 10px;
+		color: white;
+		height: 20%;
+		background: #fd7e14;
+	}
 	.testimonial-right{
 		border-left: none;
 		border-top: 3px solid #fd7e14;
 	}
-	
+	.landing-section{
+		height: 85%;
+		font-size: 170%;
+		display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 text-align: center;
+	 color: white;
+	}
   }
 
 
