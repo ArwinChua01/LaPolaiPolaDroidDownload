@@ -217,7 +217,12 @@ padding: 20px;
 	  section.service{
 		height: auto;
 	  }
-
+header{
+		padding: 10px;
+		color: white;
+		height: 20%;
+		background: #fd7e14;
+	}
 	  .col{
 		float: middle;
 	}
