@@ -9,9 +9,9 @@
 .landing{
 	height: 100vh;
 	background: linear-gradient(
-		rgba(0,0,0,.7),
-		rgba(0,0,0,.7)),
-	url('../img/FB_IMG_15284471815599863.jpg');
+		rgba(0,0,0,.5),
+		rgba(0,0,0,.5)),
+	url('../img/cofee.jpg');
 
 	background-size: cover;
 
@@ -25,9 +25,10 @@ header{
 }
 
 footer{
-	background: black;
-	color: #fd7e14;
-	padding: 20px;
+	padding: 10px;
+	color: white;
+
+	background: #fd7e14;
 	text-align: center;
 }
 
@@ -39,6 +40,7 @@ footer{
  justify-content: center;
  text-align: center;
  color: white;
+ 
 }
 
 .col{
@@ -81,9 +83,9 @@ footer{
 
 .testimonial-left{
 	background: linear-gradient(
-		rgba(0,0,0,.7),
-		rgba(0,0,0,.7)),
-	url('../img/FB_IMG_15284470552698393.jpg');
+		rgba(0,0,0,.6),
+		rgba(0,0,0,.6)),
+	url('../img/android.jpg');
 
 	background-size: cover;
 }
@@ -118,13 +120,13 @@ article{
 .testimonial-right{
 
 background: linear-gradient(
-		rgba(0,0,0,.7),
-		rgba(0,0,0,.7)),
-	url('../img/FB_IMG_15284470969051820.jpg');
+		rgba(0,0,0,.6),
+		rgba(0,0,0,.6)),
+	url('../img/iphone.jpg');
 
 	background-size: cover;
 	
-	border-left: 3px solid #fd7e14;
+	border-left: 3px solid white;
 }
 
 .testimonial-left, .testimonial-right{
@@ -133,7 +135,7 @@ height: 100%;
 
 
 .section{
-	height: 100vh;
+	height: 75vh;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -179,7 +181,7 @@ padding: 20px;
 	border: 1px solid #fd7e14;
 	border-radius: 100px;
 	color: white;
-	
+
 	margin-bottom: 30px;
 }
 .card {
@@ -246,7 +248,7 @@ padding: 20px;
 	}
 	.testimonial-right{
 		border-left: none;
-		border-top: 3px solid #fd7e14;
+		border-top: 3px solid white;
 	}
 	.landing-section{
 		height: 85%;
@@ -256,17 +258,24 @@ padding: 20px;
 	 justify-content: center;
 	 text-align: center;
 	 color: white;
+
+
 	}
+
+.margin{
+	margin-bottom: 20px;
+}
+
   }
 
 
   
   
   
-  .container {
+  body {
 	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 6px;
+	padding-left: 6px;
 	margin-right: auto;
 	margin-left: auto;
   }
